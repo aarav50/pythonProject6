@@ -4,4 +4,4 @@ import  main
 x=main.load_data()
 with streamlit.expander('Data'):
     streamlit.write(x[0])
-streamlit.checkbox('sho2 summary')
+streamlit.checkbox('show summary')
